@@ -1,6 +1,6 @@
 var stock = (function () {
 	// 数据存放目录
-	var baseUrl = '/data/';
+	var baseUrl = './data/';
     // 获取数据并渲染界面
 	function render() {
 		var kUrl = baseUrl + 'k.json';
