@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stock.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-title">
+                <p class="header-name">格力电器</p>
+                <p>(000651)</p>
+            </div>
+            <div class="header-content">
+                <div class="header-content-detail">
+                    <div class="header-data-detail-now">
+                        <p class="header-data-open"><span class="up-text">46.13</span> <i class="up-icon"></i></p>
+                        <p class="header-data-open-desc header-data-open-desc1"><span class="up-text">2.45</span></p>
+                        <p class="header-data-open-desc"><span class="up-text">5.61%</span></p>
+                    </div>
+                    <div class="header-data-detail">
+                        <span>今开：<span class="up-text">44.00</span></span>
+                        <span>最高：<span class="up-text">46.77</span></span>
+                        <span>成交量：<span class="high-light-text">4.75万手</span></span>
+                        <span>量比：<span>2.90</span></span>
+                        <span class="clear-both">昨收：<span class="up-text">43.68</span></span>
+                        <span>最低：<span class="up-text">44.00</span></span>
+                        <span>成交额：<span class="high-light-text">2.15亿</span></span>
+                        <span>换手：<span>18.55%</span></span>
+                    </div>
+                    <div class="header-btn text-center">
+                        <a>加入自选股</a>
+                    </div>
+                </div>
+                <div class="header-content-info">
+                    <div class="header-time">2017/03/13 15:59:45</div>
+                    <div class="header-info-list">
+                        <span>流通数值：<span>12亿</span></span>
+                        <span>市盈率：<span>80.93</span></span>
+                        <span>52周最高：<span class="up-text">79.4</span></span>
+                        <span>52周最低：<span class="low-text">13.26</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="data-k-handicap">
+                <div id="data-k" class="data-k"></div>
+                <div class="data-handicap">
+                    <p class="data-handicap-title text-center">盘口</p>
+                    <div class="data-handicap-sell js-data-handicap-sell">
+                        <!-- js填充内容 -->
+                    </div>
+                    <div class="data-handicap-buy js-data-handicap-buy">
+                        <!-- js填充内容 -->
+                    </div>
+                </div>
+            </div>
+            <div class="fund-flow">
+                <p class="fund-flow-title">资金流向</p>
+                <div class="fund-flow-pie-wrap">
+                    <div id="fund-flow-pie" class="fund-flow-pie"></div>
+                    <div class="fund-flow-pie-data">
+                        <table class="fund-flow-data">
+                            <caption>主户、散户资金流向</caption>
+                            <tbody>
+                                <tr>
+                                    <th></th>
+                                    <th>主力买入</th>
+                                    <th>主力卖出</th>
+                                    <th>散户买入</th>
+                                    <th>散户卖出</th>
+                                </tr>
+                                <tr>
+                                    <th>金额（万元）</th>
+                                    <td>335</td>
+                                    <td>310</td>
+                                    <td>274</td>
+                                    <td>235</td>
+                                </tr>
+                                <tr>
+                                    <th>比例</th>
+                                    <td>18.04%</td>
+                                    <td>22.67%</td>
+                                    <td>33.97%</td>
+                                    <td>25.16%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="fund-flow-bar-wrap">
+                    <div id="fund-flow-bar" class="fund-flow-bar"></div>
+                    <div class="fund-flow-bar-data">
+                        <table class="fund-flow-data">
+                            <caption>分类资金净流入额</caption>
+                            <tbody>
+                                <tr>
+                                    <th></th>
+                                    <th>散单</th>
+                                    <th>小单</th>
+                                    <th>大单</th>
+                                    <th>特大单</th>
+                                </tr>
+                                <tr>
+                                    <th>净流入（万元）</th>
+                                    <td>335</td>
+                                    <td>310</td>
+                                    <td>274</td>
+                                    <td>235</td>
+                                </tr>
+                                <tr>
+                                    <th>占流通盘比例</th>
+                                    <td>0.04%</td>
+                                    <td>0.67%</td>
+                                    <td>0.97%</td>
+                                    <td>0.16%</td>
+                                </tr>
+                                <tr>
+                                    <th>占换手比例</th>
+                                    <td>20.04%</td>
+                                    <td>20.67%</td>
+                                    <td>36.97%</td>
+                                    <td>4.16%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="company-finance-analysis">
+                <p class="company-finance-analysis-title">公司财务分析<span class="more-link">更多</span></p>
+                <div id="company-finance-analysis-chart" class="company-finance-analysis-chart"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/stock.js"></script>
+    <script>
+    	stock.render()
+    </script>
+</body>
+
+</html>

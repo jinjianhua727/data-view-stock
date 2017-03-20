@@ -1,0 +1,56 @@
+{
+    "netProfit": [
+    	{
+	        "name": "16Q3",
+	        "value": 112.73
+	    }, {
+	        "name": "16Q2",
+	        "value": 75.19
+	    }, {
+	        "name": "16Q1",
+	        "value": 37.60
+	    }, {
+	        "name": "15Q4",
+	        "value": 112.92
+	    }, {
+	        "name": "15Q3",
+	        "value": 114.32
+	    }
+	],
+    "mainRevenue": [
+    	{
+	        "name": "16Q3",
+	        "value": 879.73
+	    }, {
+	        "name": "16Q2",
+	        "value": 313.19
+	    }, {
+	        "name": "16Q1",
+	        "value": 280.60
+	    }, {
+	        "name": "15Q4",
+	        "value": 891.92
+	    }, {
+	        "name": "15Q3",
+	        "value": 761.32
+	    }
+	],
+    "preShare": [
+    	{
+	        "name": "16Q3",
+	        "value": 1.73
+	    }, {
+	        "name": "16Q2",
+	        "value": 0.89
+	    }, {
+	        "name": "16Q1",
+	        "value": 0.60
+	    }, {
+	        "name": "15Q4",
+	        "value": 1.92
+	    }, {
+	        "name": "15Q3",
+	        "value": 1.32
+	    }
+	]
+}

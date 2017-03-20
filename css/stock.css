@@ -1,0 +1,367 @@
+/* reset css --start */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+:focus {
+	outline: 1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+nav ul,li {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* reset css --end */
+/*globle --start*/
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.up-text {
+    color: red;
+}
+
+.low-text {
+    color: green;
+}
+
+.high-light-text {
+    font-weight: bold;
+}
+/*globle --end*/
+/*header --start*/
+
+.header {
+    border: 1px solid #66a0dc;
+    height: 100px;
+}
+
+.header-title {
+    float: left;
+    background-color: #66a0dc;
+    height: 60px;
+    padding: 20px 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+}
+
+.header-name {
+    font-size: 24px
+}
+
+.header-content {
+    overflow: hidden;
+    background-color: #f6f6f6;
+}
+
+.header-content-detail {
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    height: 60px;
+    padding-left: 20px;
+}
+
+.header-content-detail>div {
+    float: left;
+}
+
+.header-data-detail-now {
+    width: 200px;
+}
+
+.header-data-open {
+    float: left;
+    line-height: 60px;
+    font-size: 40px;
+    margin-right: 6px;
+}
+
+.header-data-open-desc {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.header-data-open-desc1 {
+    padding-top: 10px;
+}
+
+.header-data-detail {
+    width: 440px;
+    font-size: 12px;
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+.header-data-detail>span {
+    float: left;
+    display: inline-block;
+    width: 110px;
+}
+
+.header-btn {
+    width: 180px;
+    padding-top: 10px;
+}
+
+.header-btn>a {
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ef6250;
+    cursor: pointer;
+    color: #fff;
+}
+
+.header-btn>a:hover {
+    color: #fff;
+}
+
+.header-content-info {
+    height: 39px;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 20px;
+}
+
+.header-time {
+    float: left;
+    padding-top: 10px;
+    width: 200px;
+    color: blue;
+}
+
+.header-info-list {
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.header-info-list>span {
+    float: left;
+    width: 110px;
+    display: inline-block;
+}
+/*header --end*/
+/*content --start*/
+
+.content {
+    margin-top: 20px;
+}
+/*data-k-handicap --start*/
+
+.data-k {
+    width: 700px;
+    height: 500px;
+    float: left;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+.data-handicap {
+    border: 1px solid #ddd;
+    height: 460px;
+    padding: 20px 10px;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.data-handicap table {
+    width: 100%;
+}
+
+.data-handicap td {
+    padding: 8px 4px;
+}
+
+.data-handicap-sell {
+    padding: 10px 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+.data-handicap-buy {
+    padding: 10px 0;
+}
+/*data-k-handicap --end*/
+/*fund-flow --start*/
+
+.fund-flow {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.fund-flow-pie-wrap {
+    float: left;
+    width: 50%;
+}
+
+.fund-flow-pie {
+    width: 100%;
+    height: 240px;
+}
+
+.fund-flow-data {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+.fund-flow-data caption {
+    background-color: #dce5f4;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.fund-flow-data,
+.fund-flow-data tr,
+.fund-flow-data th,
+.fund-flow-data td {
+    border: 1px solid #dce5f4;
+}
+
+.fund-flow-data th,
+.fund-flow-data td {
+    font-weight: normal;
+    padding: 4px;
+}
+
+.fund-flow-bar-wrap {
+    overflow: hidden;
+    width: 50%;
+}
+
+.fund-flow-bar {
+    width: 100%;
+    height: 240px;
+}
+/*fund-flow --end*/
+/*company-finance-analysis --start*/
+
+.company-finance-analysis {
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.company-finance-analysis-title {
+    font-size: 18px;
+}
+
+.more-link {
+    float: right;
+    font-size: 14px;
+}
+.company-finance-analysis-chart{
+    width: 100%;
+    height: 240px;
+}
+/*company-finance-analysis --end*/
+/*content --end*/
+/*icon --start*/
+.up-icon{
+    background: url('../images/up.png') 0 0;
+    display: inline-block;
+    width: 24px;
+    height: 34px;
+}
+/*icon --end*/

@@ -1,0 +1,14 @@
+{
+	"main_investor" : {
+		"main_buy" : 1010.17,
+		"main_sell" : 1294.41,
+		"investor_buy" : 1939.41,
+		"investor_sell" : 1436.58
+	},
+	"classify_fund" : {
+		"scatter" : 335.85,
+		"small" : 310.20,
+		"big" : -297.99,
+		"xBig" : 33.75
+	}
+}
